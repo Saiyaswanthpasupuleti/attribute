@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        [id]{
+            color: crimson;
+        }
+        [name="yaswanth"]{
+            color: red;
+        }
+        [id~="some"]{
+            color: blue;
+        }
+        [id|="ab"]{
+            color: yellowgreen;
+        }
+        [id^="xy"]{
+            color: blueviolet;
+            
+        }
+        [id$="as"]{
+            color:fuchsia;
+            
+        }
+        [id*="q"]{
+            color: lightsalmon;
+        }
+        .inq{
+            border: 2px solid black;
+            height: 150px;
+            width: 150px;
+            background-color: yellow;
+            background-image: url(../images/login.png);
+            background-size: contain;
+        }
+        #w{
+            width: 20px;
+            text-align: center;
+            background-color: yellowgreen;
+            color: white;
+            
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label  id="ina">Enter your password:</label>
+        <input type="password" id="ina" placeholder="enter your password">
+        <br>
+        <br>
+        <label name="yaswanth">Enter your name:</label>
+        <input type="text" id="sai" name="yaswanth" placeholder="name:">
+        <br>
+        <br>
+        <label id="some thing">select something</label>
+        <select name="ab" id="some thing">
+            <optgroup label="some thing">
+                <option value="a">a</option>
+                <option value="b">b</option>
+            </optgroup>
+            <optgroup label="no">
+                <option value="c">c</option>
+                <option value="d">d</option>
+            </optgroup>
+        </select>
+    <br>
+    <br>
+    <label id="ab-cd">select something</label>
+        <input list="abcd" name="none">
+        <datalist id="abcd">
+            <option value="a" >a</option>
+            <option value="b" >b</option>
+        </datalist>
+        <br>
+        <br>
+        <label id="xy cd">select something</label>
+        <select name="dropdown" id="xy cd">
+            <option value="a" >a</option>
+            <option value="b" >b</option>
+        </select>
+        <br>
+        <br>
+        <label id="id as">select something</label>
+        <input type="checkbox"  id="id as"name="sai" value="a">A
+        <input type="checkbox" name="sai" value="b">B
+        <br>
+        <br>
+        <input type="submit" id="abqa">
+    </form>
+    <pre>
+
+
+
+
+
+
+
+
+
+
+
+    </pre>
+    <fieldset id="w">
+    <fieldset id="w">
+    <fieldset id="w">
+    <figure>
+    <h2 class="inq"></h2>
+    <figcaption>login in </figcaption>
+    </figure>
+    </fieldset>
+    </fieldset>
+    </fieldset>
+    
+    
+</body>
+</html>
